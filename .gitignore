@@ -1,0 +1,38 @@
+# 依赖文件
+*.whl
+*.pth
+*.bin
+
+# 数据文件
+data/cpg/*.pkl
+data/input/*.pkl
+data/raw/*.json
+data/tokens/*.pkl
+data/w2v/*.model
+
+# 虚拟环境
+venv*/
+env*/
+.venv/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 日志和临时文件
+*.log
+*.tmp
+*.temp
+
+# 大文件
+*.zip
+*.tar.gz
+*.7z
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
